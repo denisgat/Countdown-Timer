@@ -17,7 +17,7 @@ function ftime(){
     let month = now.getMonth();
     let day = now.getDay();
     
-    let future = new Date(year,month,20,23,05,0);
+    let future = new Date(year,month,21,17,47,0);
     let lapse = now - future;
     
     let seconds = Math.floor(-lapse/1000);
